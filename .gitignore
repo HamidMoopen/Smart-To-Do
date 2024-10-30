@@ -1,0 +1,14 @@
+# Ignore Python environment and Flask config
+backend/venv/
+backend/.env
+
+# Ignore node_modules from frontend
+frontend/node_modules/
+frontend/.env
+
+# Ignore Vercel and Render build outputs (if any)
+.vercel/
+.render/
+
+# Ignore general OS files
+.DS_Store
